@@ -2,7 +2,6 @@ import numpy as np
 import random
 from monai.transforms import CropForeground, RandSpatialCrop
 import torch
-import matplotlib.pyplot as plt
 
 def generate_patch_pair_MONAI(img, outer_patch_width, inner_patch_width, num_pairs=1):
 
